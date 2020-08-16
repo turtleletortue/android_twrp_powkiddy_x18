@@ -74,7 +74,6 @@ TARGET_INCREASES_COLDBOOT_TIMEOUT := true
 #RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_VARIANT := twrp
 TW_DEFAULT_EXTERNAL_STORAGE := true
-TW_INCLUDE_CRYPTO := false
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 128
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
@@ -98,8 +97,8 @@ TW_MTP_DEVICE := "/dev/mtp_usb"
 TW_NO_USB_STORAGE := false
 
 # Logs
-TARGET_USES_LOGD := true
-TWRP_INCLUDE_LOGCAT := true
+#TARGET_USES_LOGD := true
+#TWRP_INCLUDE_LOGCAT := true
 
 # Exclude APP
 TW_EXCLUDE_TWRPAPP := true
